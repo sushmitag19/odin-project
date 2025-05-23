@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+}
+.sidebar{
+    height: 950px;
+    width: 300px;
+    background-color: #03A9F4;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+h3{
+    font-size: 1.6rem;
+    padding: 20px;
+}
+h3 i{
+    font-size: 1.5rem;
+    margin-right:5px;
+}
+.sidebar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+.sidebar ul li i{
+    font-size: 1.3rem;
+    margin-right: 20px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0 20px 50px;
+    background-color: white;
+    gap: 50px;
+}
+nav ul{
+    display: flex;
+    gap: 70px;
+    list-style: none;
+}
+.search-bar i{
+    font-size: 1.2rem;
+    color:gray;
+    margin-right: 20px;
+}
+.search-bar input{
+    height: 35px;
+    width: 500px;
+    border-radius: 20px;
+    background-color:#e3eff5;
+    border: transparent;
+    margin-right: 50px;
+}
+.logo{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.small{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 0.3cm;
+    margin-right: 250px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 8px 20px;
+    background-color: #03A9F4;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+}
+.main{
+    display: grid;
+    grid-template-columns: 900px 350px;
+    padding-top: 50px;
+    padding-left: 50px;
+    background-color: #E1F5FE;
+}
+.gridd{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(3, 200px);
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.gridd h5{
+    font-size: 1.1rem;
+}
+.gridd p{
+    color: gray;
+    padding-bottom: 25px;
+}
+.gridd .icons{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    color: gray;
+}
+.project-grid{
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    border-left: 7px solid #FFC107;
+}
+.second-column{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.ggg{
+    background-color: white;
+    margin-right: 30px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+}
+.trending{
+    background-color: white;
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.name{
+    display: flex;
+    gap: 20px;
+}
+.name span p{
+    color: gray;
+
+}
